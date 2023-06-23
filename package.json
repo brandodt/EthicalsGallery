@@ -2,11 +2,12 @@
   "name": "artmuseum",
   "version": "1.0.0",
   "description": "An Art Museum website that made by BSIT-1E",
-  "main": "scss/style.scss",
+  "main": "html/scss/style.scss",
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url scss/style.scss css/style.css",
+    "css-build": "node-sass --omit-source-map-url html/scss/style.scss html/css/style.css",
     "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
+    "start": "npm run css-watch",
+    "build": ""
   },
   "author": "Dwayne Lifter",
   "license": "MIT",
