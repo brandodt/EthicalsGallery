@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="has-navbar-fixed-top">
 
 <head>
     <meta charset="UTF-8">
@@ -8,12 +8,13 @@
     <title>ArtMuseum</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/c_style.css">
 </head>
 
 <body>
-    <nav class="navbar is-transparent">
+    <nav class="navbar is-fixed-top is-primary">
         <div class="navbar-brand">
-            <a href="#home" class="navbar-item playlistscript has-text-weight-medium has-text-black is-size-4 mx-4">
+            <a href="#home" class="navbar-item playlistscript has-text-weight-medium has-text-black is-size-3 mx-4">
                 Ethicals
             </a>
 
@@ -26,33 +27,48 @@
 
         <div class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item cormorant" href="#home">
+                <a class="navbar-item cormorant is-size-5" href="#home">
                     Home
                 </a>
                 <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link cormorant is-arrowless">
+                    <a class="navbar-link cormorant is-size-5 is-arrowless">
                         Collections
                     </a>
                     <div class="navbar-dropdown">
-                        <a href="visual-arts.html" class="navbar-item cormorant">
+                        <a href="visual-arts.html" class="navbar-item cormorant is-size-5">
                             Visual Arts
                         </a>
-                        <a href="performing-arts.html" class="navbar-item cormorant">
+                        <a href="performing-arts.html" class="navbar-item cormorant is-size-5">
                             Performing Arts
                         </a>
                     </div>
                 </div>
-                <a href="team.html" class="navbar-item cormorant">The Team</a>
-                <a href="about.html" class="navbar-item cormorant">About Us</a>
+                <a href="team.html" class="navbar-item cormorant is-size-5">The Team</a>
+                <a href="about.html" class="navbar-item cormorant is-size-5">About Us</a>
             </div>
         </div>
     </nav>
 
     <section class="section" id="home">
         <div class="container">
+            adawdaw
         </div>
     </section>
     <script src="script/main.js"></script>
+    <script src="script/jquery.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+
+            // Check for click events on the navbar burger icon
+            $(".navbar-burger").click(function () {
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+
+            });
+        });
+    </script>
 </body>
 
 </html>

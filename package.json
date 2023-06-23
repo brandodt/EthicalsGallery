@@ -1,0 +1,20 @@
+{
+  "name": "artmuseum",
+  "version": "1.0.0",
+  "description": "An Art Museum website that made by BSIT-1E",
+  "main": "scss/style.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url scss/style.scss css/style.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "Dwayne Lifter",
+  "license": "MIT",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "bulma-extensions": "^6.2.7"
+  }
+}
