@@ -7,7 +7,7 @@
 
 $purple: #8A4D76;
 $pink: #FA7C91;
-$brown: #757763;
+$brown: #75776397;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
 $dirty-brown: #BFBCB1;
@@ -25,10 +25,12 @@ $card-background-color: $primary;
 
 // Update some of Bulma's component variables
 $body-background-color: $beige-lighter;
-//$control-border-width: 2px;
+$control-border-width: 2px;
 //$input-border-color: transparent;
 //$input-shadow: none;
-
+$navbar-box-shadow-color: $brown;
+$navbar-box-shadow-size: 0px 2px 2px;
+$button-border-color: $brown;
 
 // Import only what you need from Bulma
 @import "../../node_modules/bulma/bulma.sass";

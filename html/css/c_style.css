@@ -91,7 +91,7 @@ body > section:nth-child(3) {
 }
 
 .navbar-menu.is-active {
-  animation: nav-fade .6s ease-in-out;
+  animation: nav-fade 0.6s ease-in-out;
 }
 
 .reveal {
@@ -102,12 +102,19 @@ body > section:nth-child(3) {
 .reveal.active {
   opacity: 1;
 }
+
+.active.fade-in {
+  animation: fade-in ease 1s;
+}
+
 .active.fade-bottom {
   animation: fade-bottom 1s ease-in;
 }
+
 .active.fade-left {
   animation: fade-left 1s ease-in;
 }
+
 .active.fade-right {
   animation: fade-right 1s ease-in;
 }
