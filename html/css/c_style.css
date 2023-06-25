@@ -13,10 +13,59 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+footer {
+  background-color: #d9d9d9 !important;
+}
+
 .playlistscript {
   font-family: "playlistscript";
 }
 
 .cormorant {
   font-family: "CormorantGaramond";
+}
+
+#home {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.is-size-jumbo {
+  font-size: 8rem;
+}
+
+.supsub {
+  display: inline-block;
+}
+
+.supsub sup,
+.supsub sub {
+  position: relative;
+  display: block;
+  line-height: 1.2;
+}
+
+.supsub sup {
+  font-size: 3.5rem;
+}
+
+.supsub sub {
+  font-size: 2rem;
+}
+
+.black-shadow {
+  text-shadow: 1px 1px 1px #000;
+}
+
+.flat-icon {
+  width: 3rem;
 }
