@@ -79,6 +79,11 @@ footer {
   animation-fill-mode: forwards;
 }
 
+.navbar-menu {
+  animation: navAnimOpen 0.2s ease-in-out;
+}
+
+/** KEYFRAMES FOR ANIMATION **/
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -86,5 +91,21 @@ footer {
 
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes navAnimOpen {
+  0% {
+    display: none;
+    opacity: 0;
+    max-height: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    max-height: 396px;
   }
 }
