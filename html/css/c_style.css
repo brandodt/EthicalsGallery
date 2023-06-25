@@ -69,3 +69,22 @@ footer {
 .flat-icon {
   width: 3rem;
 }
+
+/** ANIMATIONS **/
+
+#home > div > div,
+#home > div > p {
+  animation: fadeIn ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
