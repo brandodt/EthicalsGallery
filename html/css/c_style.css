@@ -79,8 +79,8 @@ footer {
   animation-fill-mode: forwards;
 }
 
-.navbar-menu {
-  animation: navAnimOpen 0.2s ease-in-out;
+.navbar-menu.is-active {
+  animation: navFadeIn 0.2s ease-in-out;
 }
 
 /** KEYFRAMES FOR ANIMATION **/
@@ -94,7 +94,7 @@ footer {
   }
 }
 
-@keyframes navAnimOpen {
+@keyframes navFadeIn {
   0% {
     display: none;
     opacity: 0;
