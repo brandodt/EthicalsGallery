@@ -55,6 +55,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+//fade animation example class="reveal fade-in"
+
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
     for (var i = 0; i < reveals.length; i++) {
@@ -70,3 +72,23 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+//modal
+
+// Function for opening the modal
+function popUp() {
+    // is-active class of the modal
+    document.getElementById("modal_id").classList.add("is-active");
+}
+// Adding event listeners for closing the modal
+document.querySelectorAll(
+    "#modal_id > div.modal-background, #modal_id > div.modal-content > div > button"
+)
+    .forEach(($el) => {
+        const $modal = $el.closest(".modal");
+
+        $el.addEventListener("click", () => {
+            // removing is-active class from modal
+            $modal.classList.remove("is-active");
+        });
+    });

@@ -17,7 +17,8 @@ html {
   scroll-behavior: smooth;
 }
 
-html::-webkit-scrollbar {
+html::-webkit-scrollbar,
+#modal_id > div.modal-content::-webkit-scrollbar {
   display: none;
 }
 
@@ -66,10 +67,17 @@ footer {
   text-shadow: 1px 1px 1px #000;
 }
 
+.black-shadow-box {
+  box-shadow: 2px 2px 1px #75776397;
+}
+
 .flat-icon {
   width: 3rem;
 }
 
+.history {
+  width: 100rem;
+}
 /** ANIMATIONS **/
 
 #home > div > div {
@@ -85,6 +93,12 @@ footer {
 }
 
 body > section:nth-child(3) {
+  animation: fade-in ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#modal_id > div.modal-content {
   animation: fade-in ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
