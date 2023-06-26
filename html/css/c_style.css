@@ -92,7 +92,7 @@ footer {
   animation-fill-mode: forwards;
 }
 
-body > section:nth-child(3) {
+#welcome {
   animation: fade-in ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -133,6 +133,10 @@ body > section:nth-child(3) {
   animation: fade-right 1s ease-in;
 }
 
+time {
+  position: absolute;
+  bottom: 0;
+}
 /** KEYFRAMES FOR ANIMATION **/
 @keyframes fade-in {
   0% {
