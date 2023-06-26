@@ -74,11 +74,6 @@ footer {
 .flat-icon {
   width: 3rem;
 }
-
-time {
-  position: absolute;
-  bottom: 0;
-}
 /** ANIMATIONS **/
 
 #home > div > div {
