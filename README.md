@@ -1,4 +1,4 @@
-# ArtMuseum
+# Ethicals Gallery
 
 An Art Museum website that made by BSIT-1E
 
