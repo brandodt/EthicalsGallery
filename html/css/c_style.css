@@ -100,6 +100,7 @@ footer {
   animation-fill-mode: forwards;
 }
 
+/**
 body > section:nth-child(3) > div > div > div:nth-child(1) > div:nth-child(1) {
   animation: fade-left 1s ease-in;
 }
@@ -111,6 +112,7 @@ body > section:nth-child(3) > div > div > div:nth-child(1) > div:nth-child(2) {
 body > section:nth-child(3) > div > div > div:nth-child(1) > div:nth-child(3) {
   animation: fade-right 1s ease-in;
 }
+**/
 
 .reveal {
   position: relative;
