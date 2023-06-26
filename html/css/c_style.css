@@ -74,10 +74,6 @@ footer {
 .flat-icon {
   width: 3rem;
 }
-
-.history {
-  width: 100rem;
-}
 /** ANIMATIONS **/
 
 #home > div > div {
@@ -104,8 +100,16 @@ footer {
   animation-fill-mode: forwards;
 }
 
-.navbar-menu.is-active {
-  animation: nav-fade 0.6s ease-in-out;
+body > section:nth-child(3) > div > div > div:nth-child(1) > div:nth-child(1) {
+  animation: fade-left 1s ease-in;
+}
+
+body > section:nth-child(3) > div > div > div:nth-child(1) > div:nth-child(2) {
+  animation: fade-bottom 1s ease-in;
+}
+
+body > section:nth-child(3) > div > div > div:nth-child(1) > div:nth-child(3) {
+  animation: fade-right 1s ease-in;
 }
 
 .reveal {
@@ -133,11 +137,16 @@ footer {
   animation: fade-right 1s ease-in;
 }
 
-time {
-  position: absolute;
-  bottom: 0;
+@media screen and (min-width: 1024px) {
+  .navbar-item:hover,
+  .navbar-link:hover {
+    background-color: #b4b0a3;
+    transition: 0.8s;
+  }
 }
+
 /** KEYFRAMES FOR ANIMATION **/
+
 @keyframes fade-in {
   0% {
     opacity: 0;
