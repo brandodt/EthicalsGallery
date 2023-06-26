@@ -82,7 +82,7 @@ function popUp() {
 }
 // Adding event listeners for closing the modal
 document.querySelectorAll(
-    "#modal_id > div.modal-background, #modal_id > div.modal-content > div > button"
+    "#modal_id > div.modal-background, #modal_id > div.modal-content > div > div > div > button"
 )
     .forEach(($el) => {
         const $modal = $el.closest(".modal");
