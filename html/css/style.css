@@ -3484,7 +3484,7 @@ button.dropdown-item {
 
 .modal-content,
 .modal-card {
-  margin: 0 20px;
+  margin: 0 50px;
   max-height: calc(100vh - 160px);
   overflow: auto;
   position: relative;
@@ -3494,7 +3494,7 @@ button.dropdown-item {
     .modal-card {
       margin: 0 auto;
       max-height: calc(100vh - 40px);
-      width: 640px; } }
+      width: 800px; } }
 
 .modal-close {
   background: none;

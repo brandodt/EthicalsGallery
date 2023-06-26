@@ -31,6 +31,7 @@ $control-border-width: 2px;
 $navbar-box-shadow-color: $brown;
 $navbar-box-shadow-size: 0px 2px 2px;
 $button-border-color: $brown;
-
+$modal-content-width: 800px;
+$modal-content-margin-mobile: 50px;
 // Import only what you need from Bulma
 @import "../../node_modules/bulma/bulma.sass";
