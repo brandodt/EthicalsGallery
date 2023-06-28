@@ -99,15 +99,17 @@ document.querySelectorAll(".my-modal-trigger").forEach((card) => {
     card.addEventListener("click", () => {
         const modal = document.querySelector(".my-modal");
         modal.classList.add("is-active");
+        document.documentElement.classList.add("is-clipped"); // Add class to <html> element
     });
 });
 
 // Adding event listeners for closing the modal
-document.querySelectorAll(".modal-background, div.modal-content > div > div > div > button")
+document.querySelectorAll(".modal-background, button.delete")
     .forEach((closeButton) => {
         const modal = closeButton.closest(".my-modal");
 
         closeButton.addEventListener("click", () => {
             modal.classList.remove("is-active");
+            document.documentElement.classList.remove("is-clipped"); // Remove class from <html> element
         });
     });
