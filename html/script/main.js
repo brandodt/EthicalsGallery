@@ -73,7 +73,7 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
-//modal
+//modal for button
 
 // Function for opening the modal
 function popUp() {
