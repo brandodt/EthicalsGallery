@@ -103,7 +103,7 @@ document.querySelectorAll(".my-modal-trigger").forEach((card) => {
 });
 
 // Adding event listeners for closing the modal
-document.querySelectorAll(".my-modal > .modal-background, div.modal-content > div > div > div > button")
+document.querySelectorAll(".modal-background, div.modal-content > div > div > div > button")
     .forEach((closeButton) => {
         const modal = closeButton.closest(".my-modal");
 
