@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My custom Bulma website</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/c_style.css">
 </head>
 
 <body>
@@ -41,36 +42,92 @@
         <a class="button is-link">Link</a>
     </div>
 
-    <div class="container">
-        <div class="card">
-            <div class="card-image">
-                <figure class="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-left">
-                        <figure class="image is-48x48">
-                            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                        </figure>
-                    </div>
-                    <div class="media-content">
-                        <p class="title is-4">John Smith</p>
-                        <p class="subtitle is-6">@johnsmith</p>
-                    </div>
-                </div>
 
-                <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                    <a href="#">#css</a> <a href="#">#responsive</a>
-                    <br>
-                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-3">
+                    <div class="container">
+                        <div class="card my-modal-trigger">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                        alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="image is-48x48">
+                                            <img src="https://bulma.io/images/placeholders/96x96.png"
+                                                alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-4">John Smith</p>
+                                        <p class="subtitle is-6">@johnsmith</p>
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                                    <a href="#">#css</a> <a href="#">#responsive</a>
+                                    <br>
+                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal my-modal">
+                        <div class="modal-background"></div>
+                        <div class="modal-content">
+                            <div class="columns">
+                                <div class="column is-6">
+                                    <div class="box has-text-justified">
+                                        <button class="delete is-large"></button>
+                                        <p class="title is-3 has-text-centered">Art History</p>
+                                        <div class="columns">
+                                            <div class="column">
+                                                <p class="subtitle is-6">The foundation of art history can
+                                                    be traced
+                                                    back tens of thousands of years to when ancient
+                                                    civilizations
+                                                    used available techniques and media to depict culturally
+                                                    significant subject matter. Since these early examples,
+                                                    a
+                                                    plethora of art movements have followed, each bearing
+                                                    their own
+                                                    distinct styles and characteristics that
+                                                    reflect
+                                                    the political and social influences of the period from
+                                                    which
+                                                    they
+                                                    emerged. Whether you’re an aspiring collector or simply
+                                                    appreciate the
+                                                    work of history’s great artists, studying the major
+                                                    movements of
+                                                    the art
+                                                    history timeline is a worthwhile place to start.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+                <div class="column is-6">awdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaw</div>
+
             </div>
+
         </div>
-    </div>
+    </section>
+
+    <script src="script/main.js"></script>
 </body>
 
 </html>
