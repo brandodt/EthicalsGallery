@@ -92,3 +92,22 @@ document.querySelectorAll(
             $modal.classList.remove("is-active");
         });
     });
+
+//modal for cards
+
+document.querySelectorAll(".my-modal-trigger").forEach((card) => {
+    card.addEventListener("click", () => {
+        const modal = document.querySelector(".my-modal");
+        modal.classList.add("is-active");
+    });
+});
+
+// Adding event listeners for closing the modal
+document.querySelectorAll(".my-modal > .modal-background, div.modal-content > div > div > div > button")
+    .forEach((closeButton) => {
+        const modal = closeButton.closest(".my-modal");
+
+        closeButton.addEventListener("click", () => {
+            modal.classList.remove("is-active");
+        });
+    });
