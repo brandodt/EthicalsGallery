@@ -18,7 +18,8 @@ html {
 }
 
 html::-webkit-scrollbar,
-#modal_id > div.modal-content::-webkit-scrollbar {
+#modal_id > div.modal-content::-webkit-scrollbar,
+.my-modal > div.modal-content::-webkit-scrollbar {
   display: none;
 }
 
