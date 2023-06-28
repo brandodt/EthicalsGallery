@@ -95,9 +95,10 @@ document.querySelectorAll(
 
 //modal for cards
 
-document.querySelectorAll(".my-modal-trigger").forEach((card) => {
+document.querySelectorAll(".my-modal-trigger").forEach((card, index) => {
     card.addEventListener("click", () => {
-        const modal = document.querySelector(".my-modal");
+        const modals = document.querySelectorAll(".my-modal");
+        const modal = modals[index];
         modal.classList.add("is-active");
         document.documentElement.classList.add("is-clipped"); // Add class to <html> element
     });
