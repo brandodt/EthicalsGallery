@@ -13,4 +13,5 @@ Explore the Art Gallery by BSIT - 1E and discover incredible works of art create
 
 **CSS Framework**
 [Bulma.io](http://bulma.io/)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/678857b2-d4ce-4585-93de-699a80fd7fe7/deploy-status)](https://app.netlify.com/sites/cvsu-art/deploys)
