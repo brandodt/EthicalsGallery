@@ -1402,8 +1402,8 @@ a.box:active {
   margin-bottom: 1em; }
 
 .content blockquote {
-  background-color: whitesmoke;
-  border-left: 5px solid #dbdbdb;
+  background-color: #BFBCB1;
+  border-left: 5px solid #75776397;
   padding: 1.25em 1.5em; }
 
 .content ol {
